@@ -11,7 +11,7 @@ http.createServer(function(request, response) {
     // 資料庫
     console.log("接收到網頁請求！");
     response.writeHead(200, {"Content-Type": "text/HTML"});
-    response.write("<h1>index</h1>");
+    response.write("<h1>index hello</h1>");
     response.end();
   }else if(request.url == '/search'){
     console.log("接收到網頁請求！");
